@@ -1,0 +1,345 @@
+<!-- templates/search.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Search Flights</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:linear-gradient(135deg,#eef2f7,#dfe7f1);
+}
+
+/* TOP BAR */
+.topbar{
+    background:linear-gradient(135deg,#111827,#1d4ed8);
+    height:82px;
+    display:flex;
+    align-items:center;
+    padding:0 30px;
+    font-size:34px;
+    font-weight:800;
+    color:#fff;
+    letter-spacing:.5px;
+    box-shadow:0 10px 25px rgba(0,0,0,.18);
+}
+
+.topbar span{
+    font-size:24px;
+    margin-left:8px;
+}
+
+/* MAIN WRAPPER */
+.wrapper{
+    width:95%;
+    max-width:1280px;
+    margin:40px auto;
+}
+
+/* SEARCH BOX */
+.search-box{
+    background:rgba(255,255,255,.95);
+    border-radius:24px;
+    box-shadow:0 15px 40px rgba(0,0,0,.12);
+    padding:24px;
+    display:grid;
+    grid-template-columns:1fr 1fr 220px 160px;
+    gap:16px;
+    align-items:center;
+    border:1px solid rgba(255,255,255,.7);
+}
+
+/* SELECTORS */
+.selector{
+    position:relative;
+}
+
+.select-btn{
+    width:100%;
+    padding:16px;
+    border:1px solid #dbe2ea;
+    border-radius:16px;
+    background:#fff;
+    cursor:pointer;
+    font-size:16px;
+    text-align:left;
+    font-weight:600;
+    color:#111;
+    transition:.25s;
+}
+
+.select-btn:hover{
+    border-color:#2563eb;
+    box-shadow:0 0 0 4px rgba(37,99,235,.08);
+}
+
+/* DROPDOWN */
+.dropdown{
+    position:absolute;
+    top:64px;
+    left:0;
+    width:100%;
+    max-height:420px;
+    overflow-y:auto;
+    background:white;
+    border-radius:18px;
+    box-shadow:0 18px 35px rgba(0,0,0,.18);
+    display:none;
+    z-index:1000;
+}
+
+.dropdown.active{
+    display:block;
+}
+
+.airport-item{
+    display:flex;
+    gap:12px;
+    align-items:center;
+    padding:14px;
+    cursor:pointer;
+    border-bottom:1px solid #f1f1f1;
+    transition:.2s;
+}
+
+.airport-item:hover{
+    background:#f8fafc;
+}
+
+.airport-item img{
+    width:58px;
+    height:58px;
+    object-fit:cover;
+    border-radius:12px;
+}
+
+.airport-title{
+    font-size:16px;
+    font-weight:700;
+    color:#111;
+}
+
+.airport-sub{
+    font-size:13px;
+    color:#666;
+    margin-top:4px;
+}
+
+/* DATE */
+.date-box input{
+    width:100%;
+    padding:16px;
+    border:1px solid #dbe2ea;
+    border-radius:16px;
+    font-size:16px;
+    font-weight:600;
+}
+
+/* SEARCH BUTTON */
+.search-btn{
+    height:56px;
+    border:none;
+    border-radius:16px;
+    background:linear-gradient(135deg,#111827,#1d4ed8);
+    color:#fff;
+    font-size:18px;
+    font-weight:800;
+    cursor:pointer;
+    transition:.25s;
+}
+
+.search-btn:hover{
+    transform:translateY(-2px);
+    box-shadow:0 12px 25px rgba(0,0,0,.18);
+}
+
+/* PREMIUM FEATURES SECTION */
+.hero{
+    margin-top:32px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:22px;
+}
+
+.card{
+    background:rgba(255,255,255,.95);
+    border-radius:24px;
+    padding:28px;
+    box-shadow:0 15px 35px rgba(0,0,0,.10);
+    border:1px solid rgba(255,255,255,.7);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 20px 40px rgba(0,0,0,.14);
+}
+
+.icon{
+    font-size:34px;
+    margin-bottom:14px;
+}
+
+.city{
+    font-size:24px;
+    font-weight:800;
+    color:#111827;
+    margin-bottom:10px;
+}
+
+.desc{
+    font-size:15px;
+    color:#475569;
+    line-height:1.6;
+}
+
+/* MOBILE */
+@media(max-width:950px){
+    .search-box{
+        grid-template-columns:1fr;
+    }
+
+    .search-btn{
+        width:100%;
+    }
+
+    .topbar{
+        font-size:28px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="topbar">
+Search Flights<span>✈</span>
+</div>
+
+<div class="wrapper">
+
+<form action="/search_flights" method="get">
+
+<div class="search-box">
+
+    <div class="selector">
+        <button type="button" class="select-btn" onclick="toggleDrop('originDrop')" id="originBtn">
+            From?
+        </button>
+
+        <div class="dropdown" id="originDrop"></div>
+
+        <input type="hidden" name="origin" id="originInput" required>
+    </div>
+
+    <div class="selector">
+        <button type="button" class="select-btn" onclick="toggleDrop('destDrop')" id="destBtn">
+            To?
+        </button>
+
+        <div class="dropdown" id="destDrop"></div>
+
+        <input type="hidden" name="destination" id="destInput" required>
+    </div>
+
+    <div class="date-box">
+        <input type="date" name="date" required>
+    </div>
+
+    <button class="search-btn">🔍 Search</button>
+
+</div>
+
+</form>
+
+<!-- PREMIUM CARDS -->
+<div class="hero">
+
+<div class="card">
+<div class="icon">🌍</div>
+<div class="city">Multi Travel Options</div>
+<div class="desc">
+Search flights, trains and hotels in one smart platform.
+</div>
+</div>
+
+<div class="card">
+<div class="icon">📈</div>
+<div class="city">Delay Prediction</div>
+<div class="desc">
+Check delay chances before departure using intelligent prediction.
+</div>
+</div>
+
+<div class="card">
+<div class="icon">⚡</div>
+<div class="city">Smart Recovery Support</div>
+<div class="desc">
+Get alternative options and better travel plans during delays.
+</div>
+</div>
+
+</div>
+
+<script>
+const airports = [
+{code:"MAA",name:"Chennai",img:"/static/chennai.jpg"},
+{code:"DEL",name:"New Delhi",img:"/static/delhi.jpg"},
+{code:"BOM",name:"Mumbai",img:"/static/mumbai.jpg"},
+{code:"BLR",name:"Bengaluru",img:"/static/bangalore.jpg"},
+{code:"HYD",name:"Hyderabad",img:"/static/hyd.jpg"},
+{code:"CCU",name:"Kolkata",img:"/static/kolkata.jpg"},
+{code:"AMD",name:"Ahmedabad",img:"/static/amd.jpg"},
+{code:"COK",name:"Kochi",img:"/static/kochi.jpg"}
+];
+
+function buildDropdown(id,targetBtn,targetInput){
+    const box = document.getElementById(id);
+
+    airports.forEach(a=>{
+        const item = document.createElement("div");
+        item.className="airport-item";
+
+        item.innerHTML = `
+            <img src="${a.img}">
+            <div>
+                <div class="airport-title">${a.name} (${a.code})</div>
+                <div class="airport-sub">Airport</div>
+            </div>
+        `;
+
+        item.onclick = ()=>{
+            document.getElementById(targetBtn).innerText =
+                a.name + " (" + a.code + ")";
+            document.getElementById(targetInput).value = a.code;
+            box.classList.remove("active");
+        };
+
+        box.appendChild(item);
+    });
+}
+
+function toggleDrop(id){
+    document.querySelectorAll(".dropdown").forEach(d=>d.classList.remove("active"));
+    document.getElementById(id).classList.toggle("active");
+}
+
+buildDropdown("originDrop","originBtn","originInput");
+buildDropdown("destDrop","destBtn","destInput");
+
+document.addEventListener("click",function(e){
+    if(!e.target.closest(".selector")){
+        document.querySelectorAll(".dropdown").forEach(d=>d.classList.remove("active"));
+    }
+});
+</script>
+
+</body>
+</html>

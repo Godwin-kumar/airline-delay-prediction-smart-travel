@@ -1,0 +1,36 @@
+{
+    "MAA": [
+        {
+            "name": "Trident Hilton"
+        },
+        {
+            "name": "Radisson Blu Hotel"
+        },
+        {
+            "name": "Lemon Tree Hotel Shimona"
+        },
+        {
+            "name": "Hotel Varsha"
+        },
+        {
+            "name": "Jai Ganesha Bhavan"
+        },
+        {
+            "name": "Amma Unavagam"
+        },
+        {
+            "name": "Grace Residency Airport"
+        }
+    ],
+    "IXM": [],
+    "BLR": [
+        {
+            "name": "SM Royal Stay Transit Hotel"
+        }
+    ],
+    "HYD": [
+        {
+            "name": "Novotel Hyderabad Airport"
+        }
+    ]
+}

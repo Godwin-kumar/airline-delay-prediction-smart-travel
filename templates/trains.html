@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Trains</title>
+
+  <style>
+    :root {
+      --primary: #2a5298;
+      --primary-light: #4a78c2;
+      --background: #f4f6f9;
+      --card-bg: #ffffff;
+      --text: #222;
+      --text-muted: #666;
+      --border: #e0e0e0;
+      --shadow: 0 6px 16px rgba(42, 82, 152, 0.12);
+    }
+
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--background);
+      margin: 0;
+      color: var(--text);
+      padding: 20px 0;
+    }
+
+    h2 {
+      text-align: center;
+      color: var(--primary);
+      padding: 20px;
+      margin: 0 0 20px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    .container {
+      width: 95%;
+      max-width: 1200px; /* added max width for nicer centering */
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 0 10px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      padding: 20px;
+      border-radius: 14px;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 24px rgba(42, 82, 152, 0.18);
+    }
+
+    .train {
+      font-weight: 600;
+      color: var(--primary);
+      font-size: 1.15rem;
+      margin-bottom: 4px;
+    }
+
+    .route {
+      color: var(--text);
+      font-size: 0.92rem;
+      margin-bottom: 8px;
+    }
+
+    .time {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 12px;
+      padding-top: 10px;
+      border-top: 1px dashed var(--border);
+      font-size: 0.95rem;
+      color: var(--text-muted);
+    }
+
+    /* Optional subtle icon style if you want rocket / clock icons */
+    .time::before {
+      content: "⏰";
+      font-size: 0.9rem;
+      margin-right: 6px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>🚆 Train Options</h2>
+
+  <div class="container">
+    {% for t in trains %}
+    <div class="card">
+      <div class="train">{{ t.train_no }} - {{ t.train_name }}</div>
+      <div class="route">{{ t.from }} → {{ t.to }}</div>
+      <div class="time">{{ t.dep }} → {{ t.arrival }}</div>
+    </div>
+    {% endfor %}
+  </div>
+
+</body>
+</html>

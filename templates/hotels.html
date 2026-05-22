@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hotels</title>
+
+<style>
+body { font-family:'Segoe UI'; background:#f4f6f9; margin:0; }
+h2 { text-align:center; color:#2a5298; padding:20px; }
+
+.container {
+    width:95%; margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.card {
+    background:white;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+.name { font-weight:bold; color:#2a5298; }
+.price { color:#ff7b00; font-weight:bold; margin-top:10px; }
+</style>
+</head>
+
+<body>
+
+<h2>🏨 Hotels in {{ city }}</h2>
+
+<div class="container">
+{% for h in hotels %}
+<div class="card">
+    <div class="name">{{ h.name }}</div>
+    <div>{{ h.address }}</div>
+    <div>{{ h.distance }}</div>
+    <div>⭐ {{ h.rating }}</div>
+    <div class="price">₹{{ h.price }}</div>
+</div>
+{% endfor %}
+</div>
+
+</body>
+</html>

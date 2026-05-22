@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>India Flight Radar</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+
+<style>
+body { margin:0; }
+#map { height:100vh; }
+
+/* 🇮🇳 INDIA STYLE */
+.leaflet-container {
+    background: #e6f2ff;
+}
+</style>
+</head>
+
+<body>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script>
+
+// 🇮🇳 INDIA BOUNDS (STRICT)
+var indiaBounds = [
+    [6, 68],
+    [37, 97]
+];
+
+// 🌍 CREATE MAP LOCKED TO INDIA
+var map = L.map('map', {
+    maxBounds: indiaBounds,
+    maxBoundsViscosity: 1.0, // 🔥 cannot drag outside
+    minZoom: 5,
+    maxZoom: 9,
+    zoomControl: true
+});
+
+// 🔥 FIT INDIA PERFECTLY
+map.fitBounds(indiaBounds);
+
+// 🌍 TILE (clean look)
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    noWrap: true
+}).addTo(map);
+
+let markers = {};
+
+// ✈️ PLANE ICON
+function createIcon(heading) {
+    return L.divIcon({
+        html: `<div style="transform: rotate(${heading}deg); font-size:18px;">✈️</div>`,
+        iconSize: [20, 20]
+    });
+}
+
+// 🚀 SMOOTH MOVEMENT
+function movePlane(marker) {
+
+    let pos = marker.getLatLng();
+
+    let speed = marker.velocity / 200000;
+    let heading = marker.heading * Math.PI / 180;
+
+    let newLat = pos.lat + speed * Math.cos(heading);
+    let newLon = pos.lng + speed * Math.sin(heading);
+
+    marker.setLatLng([newLat, newLon]);
+}
+
+// 📡 LOAD FLIGHTS
+async function loadFlights() {
+
+    try {
+        const res = await fetch('/api/flights');
+        const data = await res.json();
+
+        data.forEach(f => {
+
+            if (!f.lat || !f.lon) return;
+
+            let id = f.callsign;
+
+            if (!markers[id]) {
+
+                let m = L.marker([f.lat, f.lon], {
+                    icon: createIcon(f.heading)
+                }).addTo(map);
+
+                m.bindPopup(`<b>${f.callsign}</b>`);
+
+                m.velocity = f.velocity;
+                m.heading = f.heading;
+
+                markers[id] = m;
+
+            } else {
+
+                let m = markers[id];
+                m.velocity = f.velocity;
+                m.heading = f.heading;
+            }
+        });
+
+    } catch (err) {
+        console.log("ERROR:", err);
+    }
+}
+
+// ⚡ MOVEMENT LOOP
+setInterval(() => {
+    Object.values(markers).forEach(movePlane);
+}, 100);
+
+// 🔁 FETCH LOOP
+setInterval(loadFlights, 5000);
+
+// 🚀 START
+loadFlights();
+
+</script>
+
+</body>
+</html>

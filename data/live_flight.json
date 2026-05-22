@@ -1,0 +1,3030 @@
+{
+  "DEL": [
+    {
+      "movement": {
+        "airport": {
+          "icao": "VAPO",
+          "iata": "PNQ",
+          "name": "Pune",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:20Z",
+          "local": "2026-05-11 11:50+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 06:20Z",
+          "local": "2026-05-11 11:50+05:30"
+        },
+        "terminal": "2",
+        "gate": "T23",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 2487",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOBL",
+          "iata": "BLR",
+          "name": "Bangalore",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:25Z",
+          "local": "2026-05-11 11:55+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 06:25Z",
+          "local": "2026-05-11 11:55+05:30"
+        },
+        "terminal": "1",
+        "gate": "D18",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SG 199",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "9H-TJF",
+        "modeS": "4D2352",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "SpiceJet",
+        "iata": "SG",
+        "icao": "SEJ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOMM",
+          "iata": "MAA",
+          "name": "Chennai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:40Z",
+          "local": "2026-05-11 12:10+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 06:40Z",
+          "local": "2026-05-11 12:10+05:30"
+        },
+        "terminal": "3",
+        "gate": "39B",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AI 2483",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:40Z",
+          "local": "2026-05-11 12:10+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 06:40Z",
+          "local": "2026-05-11 12:10+05:30"
+        },
+        "terminal": "1",
+        "gate": "D6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 6676",
+      "status": "Delayed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCI",
+          "iata": "COK",
+          "name": "Kochi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:45Z",
+          "local": "2026-05-11 12:15+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 06:45Z",
+          "local": "2026-05-11 12:15+05:30"
+        },
+        "terminal": "3",
+        "gate": "54",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AI 2458",
+      "status": "Delayed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOBL",
+          "iata": "BLR",
+          "name": "Bangalore",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:45Z",
+          "local": "2026-05-11 12:15+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 06:45Z",
+          "local": "2026-05-11 12:15+05:30"
+        },
+        "terminal": "1",
+        "gate": "D7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 850",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-ICH",
+        "modeS": "801744",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VAAH",
+          "iata": "AMD",
+          "name": "Ahmedabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:50Z",
+          "local": "2026-05-11 12:20+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 06:50Z",
+          "local": "2026-05-11 12:20+05:30"
+        },
+        "terminal": "2",
+        "gate": "T20",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 2331",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOHS",
+          "iata": "HYD",
+          "name": "Hyderabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:00Z",
+          "local": "2026-05-11 12:30+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 07:00Z",
+          "local": "2026-05-11 12:30+05:30"
+        },
+        "terminal": "3",
+        "gate": "49",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AI 2899",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VECC",
+          "iata": "CCU",
+          "name": "Kolkata",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:15Z",
+          "local": "2026-05-11 12:45+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 07:15Z",
+          "local": "2026-05-11 12:45+05:30"
+        },
+        "terminal": "1",
+        "gate": "D10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 897",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:30Z",
+          "local": "2026-05-11 13:00+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 07:30Z",
+          "local": "2026-05-11 13:00+05:30"
+        },
+        "terminal": "1",
+        "gate": "D6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 324",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOBL",
+          "iata": "BLR",
+          "name": "Bangalore",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:30Z",
+          "local": "2026-05-11 13:00+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 07:30Z",
+          "local": "2026-05-11 13:00+05:30"
+        },
+        "terminal": "3",
+        "gate": "47",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AI 2417",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-TQC",
+        "modeS": "80141E",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VECC",
+          "iata": "CCU",
+          "name": "Kolkata",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:30Z",
+          "local": "2026-05-11 13:00+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 07:30Z",
+          "local": "2026-05-11 13:00+05:30"
+        },
+        "terminal": "3",
+        "gate": "43",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AI 2767",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VAPO",
+          "iata": "PNQ",
+          "name": "Pune",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:30Z",
+          "local": "2026-05-11 13:00+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 07:30Z",
+          "local": "2026-05-11 13:00+05:30"
+        },
+        "terminal": "2",
+        "gate": "T21",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AI 1735",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOMM",
+          "iata": "MAA",
+          "name": "Chennai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:40Z",
+          "local": "2026-05-11 13:10+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 07:40Z",
+          "local": "2026-05-11 13:10+05:30"
+        },
+        "terminal": "1",
+        "gate": "D14",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 6115",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOBL",
+          "iata": "BLR",
+          "name": "Bangalore",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:45Z",
+          "local": "2026-05-11 13:15+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 07:45Z",
+          "local": "2026-05-11 13:15+05:30"
+        },
+        "terminal": "1",
+        "gate": "D7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 176",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-NHI",
+        "modeS": "80182F",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VILK",
+          "iata": "LKO",
+          "name": "Lucknow",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:50Z",
+          "local": "2026-05-11 13:20+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 07:50Z",
+          "local": "2026-05-11 13:20+05:30"
+        },
+        "terminal": "2",
+        "gate": "T23",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 2113",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOHS",
+          "iata": "HYD",
+          "name": "Hyderabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 08:00Z",
+          "local": "2026-05-11 13:30+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 08:00Z",
+          "local": "2026-05-11 13:30+05:30"
+        },
+        "terminal": "1",
+        "gate": "D23",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 6282",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 08:00Z",
+          "local": "2026-05-11 13:30+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 08:00Z",
+          "local": "2026-05-11 13:30+05:30"
+        },
+        "terminal": "3",
+        "gate": "48",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AI 2951",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VAAH",
+          "iata": "AMD",
+          "name": "Ahmedabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 08:05Z",
+          "local": "2026-05-11 13:35+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 08:05Z",
+          "local": "2026-05-11 13:35+05:30"
+        },
+        "terminal": "3",
+        "gate": "46",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AI 881",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    }
+  ],
+  "BOM": [
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOBL",
+          "iata": "BLR",
+          "name": "Bangalore",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:30Z",
+          "local": "2026-05-11 12:00+05:30"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "AI 2632",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-TQU",
+        "modeS": "80162F",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOBL",
+          "iata": "BLR",
+          "name": "Bangalore",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:30Z",
+          "local": "2026-05-11 12:00+05:30"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "AI 2632",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-TQU",
+        "modeS": "80162F",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:30Z",
+          "local": "2026-05-11 12:00+05:30"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "AI 2419",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:30Z",
+          "local": "2026-05-11 12:00+05:30"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "AI 2419",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VILK",
+          "iata": "LKO",
+          "name": "Lucknow",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:35Z",
+          "local": "2026-05-11 12:05+05:30"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 5251",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:45Z",
+          "local": "2026-05-11 12:15+05:30"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 6028",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCI",
+          "iata": "COK",
+          "name": "Kochi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:00Z",
+          "local": "2026-05-11 12:30+05:30"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 673",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOBL",
+          "iata": "BLR",
+          "name": "Bangalore",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:00Z",
+          "local": "2026-05-11 12:30+05:30"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 5184",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-NCC",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VECC",
+          "iata": "CCU",
+          "name": "Kolkata",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:15Z",
+          "local": "2026-05-11 12:45+05:30"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 5239",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOMM",
+          "iata": "MAA",
+          "name": "Chennai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:15Z",
+          "local": "2026-05-11 12:45+05:30"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "AI 2780",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VAAH",
+          "iata": "AMD",
+          "name": "Ahmedabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:25Z",
+          "local": "2026-05-11 12:55+05:30"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "AI 2503",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:30Z",
+          "local": "2026-05-11 13:00+05:30"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "AI 2677",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:30Z",
+          "local": "2026-05-11 13:00+05:30"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 615",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:30Z",
+          "local": "2026-05-11 13:00+05:30"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "QP 1127",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "Starlight Airline",
+        "iata": "QP",
+        "icao": "SLT"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCI",
+          "iata": "COK",
+          "name": "Kochi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:40Z",
+          "local": "2026-05-11 13:10+05:30"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "SG 695",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "SpiceJet",
+        "iata": "SG",
+        "icao": "SEJ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCI",
+          "iata": "COK",
+          "name": "Kochi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 08:00Z",
+          "local": "2026-05-11 13:30+05:30"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "AI 2517",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOMM",
+          "iata": "MAA",
+          "name": "Chennai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 08:15Z",
+          "local": "2026-05-11 13:45+05:30"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 5337",
+      "status": "Expected",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    }
+  ],
+  "MAA": [
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOHS",
+          "iata": "HYD",
+          "name": "Hyderabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:30Z",
+          "local": "2026-05-11 12:00+05:30"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 6925",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOHS",
+          "iata": "HYD",
+          "name": "Hyderabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:30Z",
+          "local": "2026-05-11 12:00+05:30"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 6925",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCI",
+          "iata": "COK",
+          "name": "Kochi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:40Z",
+          "local": "2026-05-11 12:10+05:30"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 927",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:55Z",
+          "local": "2026-05-11 12:25+05:30"
+        },
+        "terminal": "4",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "AI 574",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VILK",
+          "iata": "LKO",
+          "name": "Lucknow",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:00Z",
+          "local": "2026-05-11 12:30+05:30"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 515",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:15Z",
+          "local": "2026-05-11 12:45+05:30"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 5258",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:30Z",
+          "local": "2026-05-11 13:00+05:30"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 939",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 08:05Z",
+          "local": "2026-05-11 13:35+05:30"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "QP 3046",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "Starlight Airline",
+        "iata": "QP",
+        "icao": "SLT"
+      }
+    }
+  ],
+  "BLR": [
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:30Z",
+          "local": "2026-05-11 12:00+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 06:30Z",
+          "local": "2026-05-11 12:00+05:30"
+        },
+        "terminal": "1",
+        "checkInDesk": "1-2,1-55",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 809",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-NCA",
+        "modeS": "80174B",
+        "model": "Airbus A321 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:30Z",
+          "local": "2026-05-11 12:00+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 06:30Z",
+          "local": "2026-05-11 12:00+05:30"
+        },
+        "terminal": "1",
+        "checkInDesk": "1-2,1-55",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 809",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-NCA",
+        "modeS": "80174B",
+        "model": "Airbus A321 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:35Z",
+          "local": "2026-05-11 12:05+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 06:35Z",
+          "local": "2026-05-11 12:05+05:30"
+        },
+        "terminal": "2",
+        "checkInDesk": "23-26",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AI 2630",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-TNR",
+        "modeS": "80139E",
+        "model": "Airbus A321 (Sharklets)"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VECC",
+          "iata": "CCU",
+          "name": "Kolkata",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:40Z",
+          "local": "2026-05-11 12:10+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 06:30Z",
+          "local": "2026-05-11 12:00+05:30"
+        },
+        "terminal": "2",
+        "checkInDesk": "1-15,1-30",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "IX 1537",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-RTE",
+        "modeS": "801594",
+        "model": "Airbus A321 NEO"
+      },
+      "airline": {
+        "name": "Air India Express",
+        "iata": "IX",
+        "icao": "AXB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VECC",
+          "iata": "CCU",
+          "name": "Kolkata",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:40Z",
+          "local": "2026-05-11 12:10+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 06:30Z",
+          "local": "2026-05-11 12:00+05:30"
+        },
+        "terminal": "2",
+        "checkInDesk": "1-15,1-30",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "IX 1537",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-RTE",
+        "modeS": "801594",
+        "model": "Airbus A321 NEO"
+      },
+      "airline": {
+        "name": "Air India Express",
+        "iata": "IX",
+        "icao": "AXB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VAPO",
+          "iata": "PNQ",
+          "name": "Pune",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:40Z",
+          "local": "2026-05-11 12:10+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 06:40Z",
+          "local": "2026-05-11 12:10+05:30"
+        },
+        "terminal": "1",
+        "checkInDesk": "71-75",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "QP 1313",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-YAP",
+        "modeS": "80154A",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "Starlight Airline",
+        "iata": "QP",
+        "icao": "SLT"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:00Z",
+          "local": "2026-05-11 12:30+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 06:33Z",
+          "local": "2026-05-11 12:03+05:30"
+        },
+        "terminal": "2",
+        "checkInDesk": "23-26",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AI 2652",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-EXN",
+        "modeS": "800CC7",
+        "model": "Airbus A321 (Sharklets)"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOHS",
+          "iata": "HYD",
+          "name": "Hyderabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:00Z",
+          "local": "2026-05-11 12:30+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 07:00Z",
+          "local": "2026-05-11 12:30+05:30"
+        },
+        "terminal": "2",
+        "checkInDesk": "1-15,1-30",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "IX 2819",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-BXQ",
+        "modeS": "801641",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "Air India Express",
+        "iata": "IX",
+        "icao": "AXB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOMM",
+          "iata": "MAA",
+          "name": "Chennai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:10Z",
+          "local": "2026-05-11 12:40+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 07:10Z",
+          "local": "2026-05-11 12:40+05:30"
+        },
+        "terminal": "2",
+        "checkInDesk": "1-15,1-30",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "IX 2942",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-BWL",
+        "modeS": "8016C9",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "Air India Express",
+        "iata": "IX",
+        "icao": "AXB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VAPO",
+          "iata": "PNQ",
+          "name": "Pune",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:15Z",
+          "local": "2026-05-11 12:45+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 07:15Z",
+          "local": "2026-05-11 12:45+05:30"
+        },
+        "terminal": "2",
+        "checkInDesk": "1-15,1-30",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "IX 1971",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-BWR",
+        "modeS": "801698",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "Air India Express",
+        "iata": "IX",
+        "icao": "AXB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOMM",
+          "iata": "MAA",
+          "name": "Chennai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:15Z",
+          "local": "2026-05-11 12:45+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 07:15Z",
+          "local": "2026-05-11 12:45+05:30"
+        },
+        "terminal": "1",
+        "checkInDesk": "1-2,1-55",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 6208",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-IKQ",
+        "modeS": "801723",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOCI",
+          "iata": "COK",
+          "name": "Kochi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:25Z",
+          "local": "2026-05-11 12:55+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 07:25Z",
+          "local": "2026-05-11 12:55+05:30"
+        },
+        "terminal": "1",
+        "checkInDesk": "1-2,1-55",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 703",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-IPU",
+        "modeS": "8015FC",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:35Z",
+          "local": "2026-05-11 13:05+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 07:35Z",
+          "local": "2026-05-11 13:05+05:30"
+        },
+        "terminal": "1",
+        "checkInDesk": "71-75",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "QP 1821",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-YAX",
+        "modeS": "801633",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "Starlight Airline",
+        "iata": "QP",
+        "icao": "SLT"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:40Z",
+          "local": "2026-05-11 13:10+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 07:40Z",
+          "local": "2026-05-11 13:10+05:30"
+        },
+        "terminal": "1",
+        "checkInDesk": "1-2,1-55",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 869",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-NCK",
+        "modeS": "80177D",
+        "model": "Airbus A321 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOMM",
+          "iata": "MAA",
+          "name": "Chennai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 08:05Z",
+          "local": "2026-05-11 13:35+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 08:05Z",
+          "local": "2026-05-11 13:35+05:30"
+        },
+        "terminal": "2",
+        "checkInDesk": "1-15,1-30",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "IX 2505",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-BXY",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "Air India Express",
+        "iata": "IX",
+        "icao": "AXB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VECC",
+          "iata": "CCU",
+          "name": "Kolkata",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 08:10Z",
+          "local": "2026-05-11 13:40+05:30"
+        },
+        "revisedTime": {
+          "utc": "2026-05-11 08:10Z",
+          "local": "2026-05-11 13:40+05:30"
+        },
+        "terminal": "1",
+        "checkInDesk": "1-2,1-55",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6E 172",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-IMX",
+        "modeS": "801554",
+        "model": "Airbus A321 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    }
+  ],
+  "HYD": [
+    {
+      "movement": {
+        "airport": {
+          "icao": "VECC",
+          "iata": "CCU",
+          "name": "Kolkata",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:25Z",
+          "local": "2026-05-11 11:55+05:30"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 376",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VAAH",
+          "iata": "AMD",
+          "name": "Ahmedabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:00Z",
+          "local": "2026-05-11 12:30+05:30"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 6099",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:15Z",
+          "local": "2026-05-11 12:45+05:30"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "AI 2559",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOBL",
+          "iata": "BLR",
+          "name": "Bangalore",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:15Z",
+          "local": "2026-05-11 12:45+05:30"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "IX 2937",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-BXZ",
+        "modeS": "801673",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "Air India Express",
+        "iata": "IX",
+        "icao": "AXB"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VAPO",
+          "iata": "PNQ",
+          "name": "Pune",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:20Z",
+          "local": "2026-05-11 12:50+05:30"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 311",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:25Z",
+          "local": "2026-05-11 12:55+05:30"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 5384",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:30Z",
+          "local": "2026-05-11 13:00+05:30"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 6031",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    }
+  ],
+  "CCU": [
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:30Z",
+          "local": "2026-05-11 12:00+05:30"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 6358",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:30Z",
+          "local": "2026-05-11 12:00+05:30"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 6358",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:25Z",
+          "local": "2026-05-11 12:55+05:30"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "AI 1874",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOBL",
+          "iata": "BLR",
+          "name": "Bangalore",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:55Z",
+          "local": "2026-05-11 13:25+05:30"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 455",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-ILP",
+        "modeS": "801442",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VAAH",
+          "iata": "AMD",
+          "name": "Ahmedabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 08:00Z",
+          "local": "2026-05-11 13:30+05:30"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 318",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 08:15Z",
+          "local": "2026-05-11 13:45+05:30"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 5227",
+      "status": "Expected",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    }
+  ],
+  "COK": [
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOBL",
+          "iata": "BLR",
+          "name": "Bangalore",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:30Z",
+          "local": "2026-05-11 12:00+05:30"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 196",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-ISJ",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOBL",
+          "iata": "BLR",
+          "name": "Bangalore",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:30Z",
+          "local": "2026-05-11 12:00+05:30"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 196",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-ISJ",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOHS",
+          "iata": "HYD",
+          "name": "Hyderabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:35Z",
+          "local": "2026-05-11 12:05+05:30"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 304",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:05Z",
+          "local": "2026-05-11 12:35+05:30"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "AI 2856",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOBL",
+          "iata": "BLR",
+          "name": "Bangalore",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:55Z",
+          "local": "2026-05-11 13:25+05:30"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 7006",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-IRE",
+        "model": "ATR 72"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOBL",
+          "iata": "BLR",
+          "name": "Bangalore",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 08:15Z",
+          "local": "2026-05-11 13:45+05:30"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "IX 1896",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-GHF",
+        "modeS": "800B9E",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Air India Express",
+        "iata": "IX",
+        "icao": "AXB"
+      }
+    }
+  ],
+  "AMD": [
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:30Z",
+          "local": "2026-05-11 12:00+05:30"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "AI 2848",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VABB",
+          "iata": "BOM",
+          "name": "Mumbai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:30Z",
+          "local": "2026-05-11 12:00+05:30"
+        },
+        "terminal": "2",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "AI 2848",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "Air India",
+        "iata": "AI",
+        "icao": "AIC"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:45Z",
+          "local": "2026-05-11 12:15+05:30"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 2340",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOHS",
+          "iata": "HYD",
+          "name": "Hyderabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:35Z",
+          "local": "2026-05-11 13:05+05:30"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 998",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOMM",
+          "iata": "MAA",
+          "name": "Chennai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:45Z",
+          "local": "2026-05-11 13:15+05:30"
+        },
+        "terminal": "1",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 6078",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    }
+  ],
+  "PNQ": [
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 06:55Z",
+          "local": "2026-05-11 12:25+05:30"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 6431",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOHS",
+          "iata": "HYD",
+          "name": "Hyderabad",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:10Z",
+          "local": "2026-05-11 12:40+05:30"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 6473",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOMM",
+          "iata": "MAA",
+          "name": "Chennai",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 08:05Z",
+          "local": "2026-05-11 13:35+05:30"
+        },
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 625",
+      "status": "Unknown",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    }
+  ],
+  "LKO": [
+    {
+      "movement": {
+        "airport": {
+          "icao": "VIDP",
+          "iata": "DEL",
+          "name": "New Delhi",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:25Z",
+          "local": "2026-05-11 12:55+05:30"
+        },
+        "terminal": "3",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "6E 6006",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "IndiGo",
+        "iata": "6E",
+        "icao": "IGO"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "VOBL",
+          "iata": "BLR",
+          "name": "Bangalore",
+          "countryCode": "in",
+          "timeZone": "Asia/Kolkata"
+        },
+        "scheduledTime": {
+          "utc": "2026-05-11 07:40Z",
+          "local": "2026-05-11 13:10+05:30"
+        },
+        "terminal": "3",
+        "quality": [
+          "Basic"
+        ]
+      },
+      "number": "IX 1520",
+      "status": "Expected",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "VT-BXC",
+        "modeS": "8015EE",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "Air India Express",
+        "iata": "IX",
+        "icao": "AXB"
+      }
+    }
+  ]
+}

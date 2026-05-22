@@ -1,0 +1,182 @@
+/* ---------- GLOBAL ---------- */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(180deg,#0b1220,#0f1b2e,#0a1626);
+    color:white;
+    min-height:100vh;
+}
+
+
+/* ---------- TOP HEADER (DATE & TIME) ---------- */
+
+.header{
+    width:100%;
+    padding:18px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    border-bottom:1px solid rgba(255,255,255,0.08);
+}
+
+.airport-title{
+    font-size:26px;
+    font-weight:600;
+    letter-spacing:1px;
+}
+
+.clock{
+    font-size:18px;
+    color:#38bdf8;
+    font-weight:600;
+}
+
+
+/* ---------- MAIN BOARD ---------- */
+
+.board-container{
+    width:95%;
+    margin:30px auto;
+    background: rgba(255,255,255,0.03);
+    border-radius:14px;
+    padding:25px;
+    box-shadow:0 0 40px rgba(0,0,0,0.35);
+}
+
+
+/* ---------- TABLE ---------- */
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+thead{
+    background: rgba(56,189,248,0.15);
+}
+
+th{
+    text-align:left;
+    padding:14px;
+    font-size:15px;
+    letter-spacing:1px;
+    color:#7dd3fc;
+}
+
+td{
+    padding:14px;
+    font-size:15px;
+    border-bottom:1px solid rgba(255,255,255,0.05);
+}
+
+/* row hover */
+tbody tr:hover{
+    background:rgba(56,189,248,0.06);
+}
+
+
+/* ---------- STATUS ---------- */
+
+.status{
+    color:#22c55e;        /* scheduled */
+    font-weight:600;
+}
+
+.departed{
+    color:#ef4444;        /* departed */
+    font-weight:600;
+}
+
+
+/* ---------- PREDICT BUTTON ---------- */
+
+.predict-btn{
+    background:#f97316;
+    border:none;
+    padding:8px 18px;
+    border-radius:8px;
+    color:white;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.2s ease;
+}
+
+.predict-btn:hover{
+    background:#ea580c;
+    transform:translateY(-1px);
+}
+
+
+/* ---------- BACK BUTTON ---------- */
+
+.back{
+    display:inline-block;
+    margin-top:20px;
+    text-decoration:none;
+    color:#38bdf8;
+    font-weight:600;
+}
+
+.back:hover{
+    text-decoration:underline;
+}
+
+
+/* ---------- AIRPORT SELECTION PAGE ---------- */
+
+.airport-grid{
+    width:90%;
+    margin:60px auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:22px;
+}
+
+.airport-card{
+    background:rgba(255,255,255,0.05);
+    padding:30px 20px;
+    border-radius:14px;
+    text-align:center;
+    font-size:18px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.25s;
+    border:1px solid rgba(255,255,255,0.06);
+}
+
+.airport-card:hover{
+    background:rgba(56,189,248,0.15);
+    transform:translateY(-4px);
+}
+
+
+/* ---------- RESULT PAGE ---------- */
+
+.result-box{
+    width:550px;
+    max-width:90%;
+    margin:120px auto;
+    text-align:center;
+    background:rgba(255,255,255,0.04);
+    padding:40px;
+    border-radius:16px;
+    box-shadow:0 0 40px rgba(0,0,0,0.4);
+}
+
+.result-title{
+    font-size:28px;
+    margin-bottom:25px;
+}
+
+.delay{
+    font-size:24px;
+    color:#f97316;
+    font-weight:700;
+    margin-bottom:25px;
+}

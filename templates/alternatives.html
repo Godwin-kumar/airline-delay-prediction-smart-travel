@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Alternative Flights</title>
+
+<style>
+body{
+    margin:0;
+    font-family:'Segoe UI',sans-serif;
+    background:#f4f6f9;
+}
+
+h2{
+    text-align:center;
+    color:#111;
+    padding:22px;
+    font-size:34px;
+    font-weight:800;
+}
+
+.container{
+    width:95%;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:18px;
+}
+
+.card{
+    background:white;
+    padding:18px;
+    border-radius:16px;
+    height:190px;
+    box-shadow:0 5px 14px rgba(0,0,0,0.08);
+    transition:.25s;
+}
+
+.card:hover{
+    transform:translateY(-4px);
+}
+
+.flight{
+    font-size:18px;
+    font-weight:900;
+    color:#111;
+    margin-bottom:8px;
+}
+
+.airline{
+    font-size:16px;
+    color:#444;
+    margin-bottom:10px;
+}
+
+.route{
+    font-size:16px;
+    color:#555;
+    margin-bottom:12px;
+}
+
+.time{
+    font-size:20px;
+    font-weight:800;
+    color:#111;
+    margin-top:12px;
+}
+
+.empty{
+    text-align:center;
+    margin-top:80px;
+    color:#666;
+    font-size:22px;
+}
+
+.back{
+    text-align:center;
+    margin:22px;
+}
+
+.back a{
+    text-decoration:none;
+    background:#111;
+    color:#fff;
+    padding:10px 22px;
+    border-radius:10px;
+    font-weight:700;
+}
+
+@media(max-width:1200px){
+.container{grid-template-columns:repeat(3,1fr);}
+}
+
+@media(max-width:900px){
+.container{grid-template-columns:repeat(2,1fr);}
+}
+
+@media(max-width:600px){
+.container{grid-template-columns:1fr;}
+}
+</style>
+</head>
+
+<body>
+
+<h2>✈ Alternative Flights</h2>
+
+{% if flights %}
+<div class="container">
+
+{% for f in flights %}
+<div class="card">
+
+<div class="flight">{{ f.number }}</div>
+
+<div class="airline">{{ f.airline.name }}</div>
+
+<div class="route">{{ origin }} → {{ destination }}</div>
+
+<div class="time">
+🕒 {{ f.movement.scheduledTime.local.split(' ')[1][:5] }}
+</div>
+
+</div>
+{% endfor %}
+
+</div>
+{% else %}
+
+<div class="empty">
+❌ No alternative flights available
+</div>
+
+{% endif %}
+
+<div class="back">
+<a href="/airports">⬅ Back</a>
+</div>
+
+</body>
+</html>
